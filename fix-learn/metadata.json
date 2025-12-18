@@ -1,0 +1,7 @@
+{
+  "name": "Fix Learn",
+  "description": "An intelligent vocabulary learning assistant that generates flashcards from text, PDFs, or images, evaluates your progress, and offers conversational practice.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { User } from '../types';
-import { GraduationCap, ArrowRight, Upload, HardDriveDownload } from 'lucide-react';
+import { GraduationCap, ArrowRight, Upload, HardDriveDownload, Home } from 'lucide-react';
 
 interface LoginScreenProps {
   onLogin: (user: User) => void;
@@ -58,7 +58,10 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin, onRestore }) => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 p-4 relative">
+      <a href="../" className="absolute top-4 left-4 p-2 rounded-full text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 transition" title="Zurück zur Startseite">
+        <Home size={20} />
+      </a>
       <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl w-full max-w-md p-8 border border-gray-100 dark:border-gray-700">
         <div className="text-center mb-8">
           <div className="bg-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg shadow-blue-600/30">

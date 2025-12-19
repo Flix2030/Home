@@ -332,7 +332,7 @@ const App: React.FC = () => {
       <header className="bg-white dark:bg-gray-800 shadow-sm sticky top-0 z-30 border-b border-gray-200 dark:border-gray-700 transition-colors">
         <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <a href="../" className="p-2 rounded-full text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 transition" title="Zurück zur Startseite">
+            <a href="../index.html" className="p-2 rounded-full text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 transition" title="Zurück zur Startseite">
               <Home size={20} />
             </a>
             <button className="flex items-center gap-2" onClick={() => setView('dashboard')}>

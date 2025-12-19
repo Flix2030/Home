@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Deck, SwipeDirection, User, Course, HistoryEntry } from './types';
-import DeckCreator from './components/DeckCreator';
-import FlashcardView from './components/FlashcardView';
-import LiveConversation from './components/LiveConversation';
-import ChatBot from './components/ChatBot';
-import LoginScreen from './components/LoginScreen';
-import DeckDetail from './components/DeckDetail';
-import CourseDetail from './components/CourseDetail';
-import HistoryModal from './components/HistoryModal';
+import { Deck, SwipeDirection, User, Course, HistoryEntry } from '@/types';
+import DeckCreator from '@/components/DeckCreator';
+import FlashcardView from '@/components/FlashcardView';
+import LiveConversation from '@/components/LiveConversation';
+import ChatBot from '@/components/ChatBot';
+import LoginScreen from '@/components/LoginScreen';
+import DeckDetail from '@/components/DeckDetail';
+import CourseDetail from '@/components/CourseDetail';
+import HistoryModal from '@/components/HistoryModal';
 import { Plus, MessageCircle, Mic, BookOpen, GraduationCap, Home, Sun, Moon, Download, Upload, LogOut, Users, Clock, Cloud, CloudCog, X } from 'lucide-react';
 
 // --- PERSISTENCE HELPERS ---
